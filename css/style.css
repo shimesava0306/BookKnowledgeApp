@@ -5,7 +5,7 @@ body{
   font-family: 'Oswald','Noto Serif JP', sans-serif;
 }
 .headerContainer{
-    width:90%;
+    width:75%;
     margin-inline:auto;
     display:flex;
     align-items:center;
@@ -22,13 +22,13 @@ align-items:center;
 }
 
 .headerLogo h1{
-    font-size:2rem;
+    font-size:3.5rem;
     text-shadow:0px 1.5px 0px #70707070;
-    margin-right:0.25rem;
+    margin-right:0.5rem;
 }
 .sectionList{
-    margin-inline:13rem 1rem;
-    font-size:0.8rem;
+    margin-inline:17rem 1rem;
+    font-size:1.25rem;
 }
 
 .sectionList a:hover{
@@ -56,13 +56,75 @@ nav ul li{
 }
 /*header end*/
 
-/*footer*/
+/*main*/
+.mainContainer{
+    width:70%;
+    margin-inline:auto;
+    margin-block:3rem;
+}
+/*hero*/
+.heroBooksTitle h2{
+    font-size:3rem;
+    text-align:right;
+    margin-bottom:5rem;
+    position:relative;
+    z-index:1;
+}
 
-footer{
+.heroBooksTitle h2::after{
     position:absolute;
-    bottom:0;
+    content:"";
+    right:0;
+    bottom:-0.5rem;
+    width:30%;
+    height:1rem;
+    background:#70707070;
+    z-index:-1;
+}
+.heroBooksInfo{
+    display:flex;
+    justify-content: center;
+}
+.kaisya-gaiyou {
+    width: 70%;
+}
+
+.kaisya-gaiyou th,
+.kaisya-gaiyou td{
+    padding: 1rem;
+    display: block;
+    text-align: left;
+}
+.kaisya-gaiyou th{
+    background-color: #b9b9b9;
+    font-size:1.25rem;
+}
+.kaisya-gaiyou td{
+    background-color: #ffffff;
+    font-size:1.5rem;
+}
+
+.topicsMain{
+    display:flex;
+    justify-content: space-between;
+}
+
+.heroTopics img{
+    width:20rem;
+    height: auto;
+}
+
+.infoLink{
+    margin-top:2rem;
+}
+
+
+/*main end*/
+
+/*footer*/
+footer{
     background-color: black;
-    height:7rem;
+    height:10rem;
     width:100%;
     color:#FFFFFF;
 }
@@ -90,7 +152,7 @@ footer{
 
 .footerSectionList li{
     margin-right:2rem;
-    font-size:0.8rem;
+    font-size:1.25rem;
 }
 
 .footerSectionList a:hover{
@@ -101,8 +163,9 @@ footer{
 .copyright{
     background:#000000;
     text-align:center;
-    font-size:0.7rem;
+    font-size:1rem;
     font-weight:300;
     letter-spacing:1px;
     padding-block:0.5rem;
 }
+/*footer end*/
