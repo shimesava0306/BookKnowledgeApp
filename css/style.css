@@ -18,7 +18,7 @@ body{
   }
 /*main*/
 main{
-    background-color:#f5f2e9;
+    background-image:url("../img/booksBackground.svg");
     padding-top:2rem;
     
 }
@@ -30,6 +30,7 @@ main{
 /*swiper*/
 .swiper{
     margin-bottom:2rem;
+    background-color: #f5f2e9;
 }
 /*swiper end*/
 
@@ -83,9 +84,10 @@ main{
 
 .heroTopics{
     padding:3rem 5rem;
-    box-shadow: 6px 6px 12px #a0a0a0,
-    -6px -6px 12px #ffffff;
+    box-shadow: inset 6px 6px 3px #a0a0a0, 
+    inset -6px -6px 3px #ffffff;
     border-radius: 0.5rem;
+    background-color: #f5f2e9;
 }
 
 .heroTopics img{
@@ -102,8 +104,9 @@ main{
     margin-block:7rem;
     padding-block:3rem;
     border-radius: 10px;
-    box-shadow: 6px 6px 12px #a0a0a0,
-    -6px -6px 12px #ffffff;
+    box-shadow: inset 6px 6px 3px #a0a0a0, 
+    inset -6px -6px 3px #ffffff;
+    background-color: #f5f2e9;
 }
 .appInfoTitle{
     font-size:3rem;
@@ -123,15 +126,14 @@ main{
 
 /*genre*/
 form{
-
     padding:2rem;
-
 }
 .genreSelect{
     margin-block:5rem;
     box-shadow: inset 10px 10px 6px #a0a0a0, 
     inset -10px -10px 6px #ffffff;
     border-radius:10px;
+    background-color: #f5f2e9;
 }
 
 .searchBar{
@@ -239,6 +241,7 @@ label input:checked + span{
     inset -6px -6px 3px #ffffff;
     padding:2rem 2rem;
     border-radius:10px;
+    background-color: #f5f2e9;
 }
 
 .areaInfo{
