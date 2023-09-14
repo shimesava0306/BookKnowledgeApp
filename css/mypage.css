@@ -4,14 +4,8 @@ main{
 }
 
 .mainContainer{
-    width:45%;
+    width:70%;
     margin-inline:auto;
-    text-align:center;
-    background:#f5f2e9;
-    padding-block:2rem 3rem;
-    box-shadow: inset 3px 3px 6px #a0a0a0, 
-    inset -3px -3px 6px #ffffff;
-    border-radius:20px;
 }
 
 .mainContainer h1{
@@ -46,4 +40,16 @@ main{
 .topicBookInfo td{
     background-color: #ffffff;
     font-size:1.25rem;
+}
+.sectionContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mypageSection{
+    width:20rem;
+    height:20rem;
+    background:#707070;
+    margin:1rem 3rem;
 }

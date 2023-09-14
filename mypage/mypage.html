@@ -19,28 +19,50 @@
                     <img src="../img/bookIcon.svg" alt="Book Knowledge" width="72px">
                 </a>
             </div>
+            <div class="sectionList">
+                <nav>
+                    <ul>
+                        <li><a href="../list.html">BOOKS/書籍一覧</a></li>
+                        <li> <a href="">POST/書籍登録</a></li>
+                        <li> <a href="mypage.html">MYPAGE/マイページ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="userArea" id="userName">
+                <button class="loginButton" onclick="location.href='../../login/login.html'">LOGIN/ログイン</button>
+                <button class="registerButton"
+                    onclick="location.href='../../login/register.html'">REGISTER/会員登録</button>
+            </div>
+        </div>
     </header>
 
     <main>
         <div class="mainContainer">
-
+            <div class="panTitle"><a href="/">TOP　|　</a>MYPAGE/マイページ</div>
             <h1>マイページ / MY PAGE</h1>
+            <p>こんにちは、test さん</p>
 
-            <div class="detailTitle">
-                <img src="img/listSimple1.jpg" alt="">
-            </div>
+            <div class="sectionContainer">
+                <a href="/">
+                    <div class="myShelf mypageSection">
+                        <img src="" alt="">
+                        <h3 class="sectionTitle">わたしの本棚</h3>
+                    </div>
+                </a>
 
-            <div class="detailInfo">
-                <table class="topicBookInfo">
-                    <th>ユーザーID</th>
-                    <td>test</td>
-                    <th>パスワード</th>
-                    <td>xxxxxx</td>
-                    <th>ユーザー名</th>
-                    <td>テストユーザー</td>
-                    <th>メールアドレス</th>
-                    <td>xxxxxx@xxx.xx.xx</td>
-                </table>
+                <a href="/">
+                    <div class="favoriteBooks mypageSection">
+                        <img src="" alt="">
+                        <h3 class="sectionTitle">お気に入りの本</h3>
+                    </div>
+                </a>
+
+                <a href="/">
+                    <div class="profileEdit mypageSection">
+                        <img src="" alt="">
+                        <h3 class="sectionTitle">プロフィール修正</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </main>
@@ -49,6 +71,14 @@
         <div class="footerContainer">
             <div class="footerLogo">
                 <a href="/"><img src="../img/footerIcon.svg" alt="bookKnowledge" width="200px"></a>
+            </div>
+            <div class="footerSectionList">
+                <ul>
+                    <li><a href="/">TOP</a></li>
+                    <li><a href="../list.html">BOOKS</a></li>
+                    <li> <a href="">POST</a></li>
+                    <li> <a href="mypage/mypage.html">MYPAGE</a></li>
+                </ul>
             </div>
         </div>
         <div class="copyright">©copyright Zangies EngineerGroup</div>
