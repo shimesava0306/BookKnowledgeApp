@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PAGE | BOOK KNOWLEDGE</title>
+    <title>MY SHELF | BOOK KNOWLEDGE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/mypage.css">
@@ -38,26 +38,44 @@
 
     <main>
         <div class="mainContainer">
-            <div class="panTitle"><a href="/">TOP　|　</a>MYPAGE/マイページ</div>
-            <h1>マイページ / MY PAGE</h1>
-            <div class="user">
-                <p>こんにちは、test さん</p>
-            </div>
+            <div class="panTitle"><a href="/">TOP　|　</a><a href="mypage.html">MYPAGE/マイページ</a>　|　MY SHELF/わたしの本棚</div>
+            <h1>わたしの本棚 / MY SHELF</h1>
 
-            <div class="sectionContainer">
-                <a href="myShelf.html">
-                    <div class="myShelf mypageSection">
-                        <h3 class="sectionTitle">MY SHELF</h3>
+            <div class="cardInner">
+                <a href="../bookList/listDetail.html">
+                    <div class="card">
+                        <img src="../img/bookSample.jpg" alt="">
+                        <h2>テストテストテスト</h2>
                     </div>
                 </a>
-
-                <a href="myFavotiteBooks.html">
-                    <div class="favoriteBooks mypageSection">
-                        <h3 class="sectionTitle">MY FAVORITE BOOKS</h3>
+                <a href="../bookList/listDetail.html">
+                    <div class="card">
+                        <img src="../img/bookSample.jpg" alt="">
+                        <h2>テストテストテスト</h2>
+                    </div>
+                </a>
+                <a href="../bookList/listDetail.html">
+                    <div class="card">
+                        <img src="../img/bookSample.jpg" alt="">
+                        <h2>テストテストテスト</h2>
+                    </div>
+                </a>
+                <a href="../bookList/listDetail.html">
+                    <div class="card">
+                        <img src="../img/bookSample.jpg" alt="">
+                        <h2>テストテストテスト</h2>
+                    </div>
+                </a>
+                <a href="../bookList/listDetail.html">
+                    <div class="card">
+                        <img src="../img/bookSample.jpg" alt="">
+                        <h2>テストテストテスト</h2>
                     </div>
                 </a>
             </div>
+
         </div>
+
     </main>
 
     <footer>
@@ -76,6 +94,7 @@
         </div>
         <div class="copyright">©copyright Zangies EngineerGroup</div>
     </footer>
+
 
     <script>
         document.getElementById("userName").style.display = "none";
