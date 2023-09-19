@@ -7,7 +7,7 @@
     <title>POST | BOOK KNOWLEDGE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/post.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                 <nav>
                     <ul>
                         <li><a href="../bookList/list.html">BOOKS/書籍一覧</a></li>
-                        <li> <a href="">POST/書籍登録</a></li>
+                        <li> <a href="post.html">POST/書籍登録</a></li>
                         <li> <a href="../mypage/mypage.html">MYPAGE/マイページ</a></li>
                     </ul>
                 </nav>
@@ -40,37 +40,49 @@
         <div class="mainContainer">
             <h1>POST / 書籍登録</h1>
 
+            <form action="" class="imgForm">
+                <img src="../img/listSimple2.jpg" alt="">
+                <input type="submit" value="画像を挿入する" class="submitBtn">
+            </form>
+
             <form action="">
-                <div class="bookTitle">
-                    <h2>タイトル / <span>50文字以内で入力してください</span></h2>
-                    <input type="text" name="bookTitle">
-                </div>
+                <div class="inputArea">
+                    <div class="bookTitle inputBlock">
+                        <h2 class="inputTitle">タイトル / <span>50文字以内で入力してください</span></h2>
+                        <input type="text" name="bookTitle">
+                    </div>
 
-                <div class="author">
-                    <h2>著者名 / <span>30文字以内で入力してください</span></h2>
-                    <input type="text" name="author">
-                </div>
+                    <div class="author inputBlock">
+                        <h2 class="inputTitle">著者名 / <span>30文字以内で入力してください</span></h2>
+                        <input type="text" name="author">
+                    </div>
 
-                <div class="score">
-                    <h2>点数 / 100点満点 / <span>100までの数字で入力してください</span></h2>
-                    <input type="text" name="score">
-                </div>
+                    <div class="score inputBlock">
+                        <h2 class="inputTitle">点数 / 100点満点 / <span>100までの数字で入力してください</span></h2>
+                        <input type="text" name="score">
+                    </div>
 
-                <div class="catchCopy">
-                    <h2>キャッチコピー<span>100文字以内で入力してください</span></h2>
-                    <input type="text" name="catchCopu">
-                </div>
+                    <div class="catchCopy inputBlock">
+                        <h2 class="inputTitle">キャッチコピー / <span>100文字以内で入力してください</span></h2>
+                        <input type="text" name="catchCopy">
+                    </div>
 
-                <div class="threePoints">
-                    <h2>簡単三行まとめ<span>各50文字以内で入力してください</span></h2>
-                    <input type="email" name="mail">
-                    <input type="email" name="mail">
-                    <input type="email" name="mail">
-                </div>
+                    <div class="threePoints inputBlock">
+                        <h2 class="inputTitle">簡単三行まとめ / <span>各50文字以内で入力してください</span></h2>
+                        <div class="points"><input type="email" name="mail"></div>
+                        <div class="points"><input type="email" name="mail"></div>
+                        <div class="points"><input type="email" name="mail"></div>
+                    </div>
 
-                <div class="threePoints">
-                    <h2>感想<span>150文字以内で入力してください</span></h2>
-                    <textarea></textarea>
+                    <div class="threePoints inputBlock">
+                        <h2 class="inputTitle">感想 / <span>150文字以内で入力してください</span></h2>
+                        <textarea></textarea>
+                    </div>
+
+                    <div class="catchCopy inputBlock">
+                        <h2 class="inputTitle">購入URL</h2>
+                        <input type="text" name="buyLink">
+                    </div>
                 </div>
 
                 <input type="submit" value="次へ進む" class="submitBtn">
